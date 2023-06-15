@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'OkMatrix_Example' do
+  pod 'OkMatrix', :path => '../'
+
+  target 'OkMatrix_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
