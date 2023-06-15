@@ -1,0 +1,6 @@
+framework module OkMatrix {
+  umbrella header "OkMatrix-umbrella.h"
+
+  export *
+  module * { export * }
+}
